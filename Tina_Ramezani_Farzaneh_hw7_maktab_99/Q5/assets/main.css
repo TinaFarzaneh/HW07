@@ -1,0 +1,18 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Poppins:ital,wght@0,500;1,400&display=swap");
+
+:root {
+  --white: #fff;
+  /* colors */
+  --primary: #959595;
+  --primary_Black: #383c3e;
+  --grey-line: #737b7d;
+  --input-text: #8e8e8e;
+  --primery-green: #008f17;
+}
+
+body {
+  font-family: Inter;
+  background-color: var(--white);
+}

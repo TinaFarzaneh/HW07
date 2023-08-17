@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>HW07_Q5</title>
+</head>
+
+<body>
+  <form id="form" name="myForm" onsubmit="return validateForm()" class="form">
+    <header class="header">
+      <div class="logo">LOGO</div>
+      <div class="nav">
+        <span class="nav-item">Company</span>
+        <span class="nav-item">Services</span>
+        <span class="nav-item">FinTech Solutions</span>
+        <span class="nav-item">Products</span>
+        <span class="nav-item">Portfolio</span>
+        <span class="nav-item contact-us_nav">Contact us</span>
+      </div>
+    </header>
+    <main class="main">
+      <div class="left">
+        <h1 class="contact-us">Contact us</h1>
+        <div class="box-guid-text">
+          <p class="guid-text">
+            Need an experienced and skilled hand with custom IT projects?
+          </p>
+          <p class="guid-text">
+            Fill out the form to get a free consultation.
+          </p>
+        </div>
+        <div class="box-input">
+          <input type="text" class="info-input" placeholder="Your Company Name" />
+          <input type="text" class="info-input" placeholder="Nature of Bussiness" />
+          <div class="address">
+            <input type="text" class="info-input address-input" placeholder="Address" />
+            <input type="number" name="postcode" class="info-input" placeholder="Postcode" />
+          </div>
+          <input type="text" id="contact-name" class="info-input" placeholder="Contact Name" />
+          <input type="tel" class="info-input" placeholder="Contact Phone" />
+          <input type="text" id="email" class="info-input" placeholder="email@gmail" />
+          <input type="text" class="info-input user-linkedin" placeholder="Linkedin" />
+          <input type="text" class="info-input" placeholder="Let's talk about your idea " />
+          <label class="lbl-upload" for="inputTag">
+            <img src="./assets/image/upload.svg" alt="" class="upload-icon" />
+            Upload Additional File
+            <input id="inputTag" type="file" />
+          </label>
+          <p class="info-upload">
+            Attach file. File size of your documents should not exceed 10MB
+          </p>
+
+          <button class="submit" type="submit">Submit</button>
+          <div class="box-checked">
+            <input type="checkbox" />
+            <p class="checked-text">
+              I want to protect my data by signing an NDA
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right-item">
+          <h3 class="right-title">Offices</h3>
+          <div class="text-office">
+            <p class="">United States</p>
+            <p class="">500 5th Avenue Suite 400, NY 10110</p>
+          </div>
+          <div class="text-office">
+            <p class="">United Kingdom</p>
+            <p class="">High St, Bromley BR1 1DN</p>
+          </div>
+          <div class="text-office">
+            <p class="">France</p>
+            <p class="">80 avenue des Terroirs de France, Paris</p>
+          </div>
+        </div>
+        <div class="right-item">
+          <h3 class="right-title">For Quick Inquiries</h3>
+          <div class="phone-state">
+            <img src="./assets/image/flag-uk 1.svg" alt="" />
+            <span>+44 7777777777</span>
+          </div>
+          <div class="phone-state">
+            <img src="./assets/image/Vector.svg" alt="" />
+            <span>+1 3333333330</span>
+          </div>
+        </div>
+        <div class="right-item">
+          <form action="" class="">
+            <p class="">Would you like to join our newsletter?</p>
+            <div class="">
+              <div class="request-join">
+                <input class="info-input" type="email" name="" id="" placeholder="Email" />
+                <div class="box-tick">
+
+                  <button class="btn-submit" type="submit">
+                    <img class="tick" src="./assets/image/check.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </form>
+</body>
+<script src="script.js"></script>
+
+</html>
