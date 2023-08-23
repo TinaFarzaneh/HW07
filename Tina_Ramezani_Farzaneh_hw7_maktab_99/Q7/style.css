@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(229, 235, 235);
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19rem;
+  background-color: #010101;
+  color: #fff;
+  height: 4rem;
+}
+.img {
+  height: 4rem;
+  width: 4rem;
+}
+.header-span span {
+  padding: 0 20px;
+}
+.header-span :nth-child(5) {
+  color: rgb(36, 172, 129);
+}
+.input-search {
+  padding: 0.4rem;
+  width: 12.5rem;
+  border: 0;
+  outline: 0;
+}
+.search {
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.5rem;
+  color: #010101;
+}
+.video-produce {
+  width: 75rem;
+  height: 11rem;
+  margin: 1rem 0 1rem 10rem;
+  border-radius: 3rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid grey;
+}
+.input-container {
+  display: flex;
+  gap: 4rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.input {
+  border-radius: 0.6rem;
+  border: 1px solid rgb(187, 205, 205);
+  outline: 0;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.laptop-model,
+.processor,
+.ram,
+.hard-disk,
+.dispaly {
+  position: relative;
+}
+
+.select-icon {
+  position: absolute;
+  top: 2.5rem;
+  left: 10rem;
+  color: grey;
+}
+
+.products-titles {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.products-titles span {
+  border: 1px solid rgb(34, 146, 110);
+  border-radius: 2rem;
+  padding: 0.4rem;
+  background-color: rgb(34, 146, 110);
+}
+.products-info .products .newDiv {
+  border: 1px solid rgb(34, 146, 110);
+  border-radius: 1rem;
+  margin: 1rem 2rem;
+}
+.products-info .products span {
+  display: inline-block;
+  border: 1px solid rgb(229, 235, 235);
+  text-align: center;
+  padding: 0 0.5rem;
+  margin: 1rem 1.2rem;
+}
+.products div :nth-child(10) {
+  margin-left: 2.5rem;
+}
+/* .price {
+  margin-left: 3rem;
+} */
+.products-info .products img {
+  width: 3rem;
+  height: 3rem;
+}
+.products-info .products button {
+  padding: 0.5rem;
+  border: 1px solid rgb(34, 146, 110);
+  background-color: rgb(34, 146, 110);
+  border-radius: 1rem;
+  margin-left: 4rem;
+}
